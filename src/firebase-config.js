@@ -1,13 +1,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyCESrvmqNqT3pmVQ1_TLwQflKqdPlHIk-I",
+  authDomain: "videoblog-c3b56.firebaseapp.com",
+  projectId: "videoblog-c3b56",
+  storageBucket: "videoblog-c3b56.appspot.com",
+  messagingSenderId: "1069489404223",
+  appId: "1:1069489404223:web:60af93bbfdeb4dfd987b8a"
 };
 
 // Initialize Firebase
